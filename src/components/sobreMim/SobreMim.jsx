@@ -54,7 +54,7 @@ export default function SobreMim() {
         >
           <h3 className="text-4xl text-center">Quem eu sou</h3>
           <div className="flex sm:flex-row flex-col items-center space-y-4 space-x-6">
-            <img src="src/assets/minhaFoto.jpg" alt="" />
+            <img src="/minhaFoto.jpg" alt="" />
             <p className="flex items-center text-2xl">
               Meu nome é Andrei Figueiredo da Silva Costa, tenho 20 anos,
               brasileiro, gaúcho e atualmente estou me formando em Sistemas para
