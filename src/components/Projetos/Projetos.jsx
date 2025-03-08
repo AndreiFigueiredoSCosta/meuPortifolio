@@ -15,7 +15,7 @@ export default function Projetos() {
       id="projetos"
       className={`${
         isProjetoVisivel ? "projetoVisivel " : "projetoInvisivel "
-      } bg-stone-950 py-32 flex justify-center overflow-hidden mt-0`}
+      } bg-stone-950 py-32 flex justify-center overflow-hidden mt-0 w-screen`}
       ref={refProjetos}
     >
       <div className="w-3/5 flex flex-col items-center sm:space-y-32 space-y-12">
