@@ -41,7 +41,7 @@ export default function Contato() {
         </article>
         <article className="sm:w-1/3 flex flex-col items-center space-y-10">
           <MapPin className="text-pink-700" size={150} />
-          <h5>Formigueiro - Rio grande do sul - Brasil</h5>
+          <h5>Formigueiro - Rio Grande do Sul - Brasil</h5>
         </article>
       </div>
     </section>
