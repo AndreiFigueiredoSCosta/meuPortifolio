@@ -123,7 +123,7 @@ export default function SobreMim() {
           <div className="flex flex-col w-[100%] gap-x-6 text-center sm:flex-row space-y-6">
             <div className="xm:w-1/2 flex flex-col items-center space-y-4">
               <a href="https://www.ufsm.br/">
-                <img src="src/assets/logoUFSM.jpg" alt="" />
+                <img src="/logoUFSM.jpg" alt="" />
               </a>
               <h4 className="text-2xl">
                 Universidade Federal de Santa Maria-UFSM
@@ -133,7 +133,7 @@ export default function SobreMim() {
             </div>
             <div className="sm:w-1/2 flex flex-col items-center space-y-4">
               <a href="https://compactjr.com/">
-                <img src="src/assets/logoCompact.jpg" alt="" />
+                <img src="/logoCompact.jpg" alt="" />
               </a>
               <h4 className="text-2xl">CompactJR</h4>
               <h5>
