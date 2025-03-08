@@ -13,7 +13,7 @@ export default function Início() {
       id="inicio"
       className={`${
         isVisible ? "visivel" : "invisivel"
-      }w-screen overflow-hidden relative font-mono bg-stone-950 min-h-screen text-white flex flex-col items-center justify-center sm:py-72 py-60 sm:space-y-20 space-y-10`}
+      } w-screen overflow-hidden relative font-mono bg-stone-950 min-h-screen text-white flex flex-col items-center justify-center sm:py-72 py-60 sm:space-y-20 space-y-10`}
       ref={refInicio}
     >
       <h1 className="sm:text-9xl text-5xl sm:p-10 p-5 text-center mx-4">
