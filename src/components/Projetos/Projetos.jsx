@@ -35,7 +35,7 @@ export default function Projetos() {
           <Card
             nome="Site de clima"
             sobre="Veja o clima em tempo real de qualquer cidade no mundo, feito utilizando React e com a OpenWeatherAPI"
-            imagem="src\assets\projetoClima.png"
+            imagem="/projetoClima.png"
             linkGit="https://github.com/AndreiFigueiredoSCosta/SiteDeClima"
             linkVercel="https://site-de-clima.vercel.app/"
             cor="azul"
@@ -43,7 +43,7 @@ export default function Projetos() {
           <Card
             nome="Catálogo de Filmes"
             sobre="Veja os filmes em catálogo de cada gênero e salve-os na sua lista de favoritos!"
-            imagem="src\assets\projetoCatalogo.png"
+            imagem="/projetoCatalogo.png"
             linkGit="https://github.com/AndreiFigueiredoSCosta/appDeCatalogoDeFilmes"
             linkVercel="https://app-de-catalogo-de-filmes.vercel.app/"
             cor="roxo"
@@ -51,7 +51,7 @@ export default function Projetos() {
           <Card
             nome="Meu portifólio"
             sobre="Meu portifólio feito utilizando react e tailwindcss"
-            imagem="src\assets\fotoPortfolio.png"
+            imagem="/fotoPortfolio.png"
             linkGit="https://github.com/AndreiFigueiredoSCosta/MeuPortifolio"
             linkVercel=""
             cor="rosa"
@@ -59,7 +59,7 @@ export default function Projetos() {
           <Card
             nome="Api de cadastro de livros"
             sobre="Uma api para cadastro de livros e autores construindo utilizando java, Spring, postgres e documentada utilizando springdoc"
-            imagem="src\assets\projetoApi.png"
+            imagem="/projetoApi.png"
             linkGit="https://github.com/AndreiFigueiredoSCosta/apiLivro"
             linkVercel=""
             cor="vermelho"
