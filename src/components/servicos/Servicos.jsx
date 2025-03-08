@@ -12,7 +12,7 @@ export default function Servicos() {
   return (
     <section
       id="servicos"
-      className="flex flex-col justify-center items-center bg-stone-950 py-32 text-stone-300 space-y-32 my-0"
+      className="overflow-hidden w-screen flex flex-col justify-center items-center bg-stone-950 py-32 text-stone-300 space-y-32 my-0"
     >
       <h2
         className={`${

@@ -42,7 +42,7 @@ export default function SobreMim() {
 
   return (
     <section
-      className={` bg-stone-950 font-mono text-stone-300 flex flex-col items-center space-y-24 py-32 overflow-hidden `}
+      className={`w-screen bg-stone-950 font-mono text-stone-300 flex flex-col items-center space-y-24 py-32 overflow-hidden `}
       id="sobremim"
     >
       <div className="sm:grid sm:grid-cols-4 sm:grid-rows-6 sm:w-3/5  w-4/5 sm:gap-x-20 sm:gap-y-10 space-y-8">
@@ -137,8 +137,8 @@ export default function SobreMim() {
               </a>
               <h4 className="text-2xl">CompactJR</h4>
               <h5>
-                Trabalhando como desenvolvedor projetos e também como membro dos
-                times de Administrativo-financeiro e Comercial
+                Trabalhando como desenvolvedor de projetos e também como membro
+                dos times de Administrativo-financeiro e Comercial
               </h5>
               <p>2024-atualmente</p>
             </div>
