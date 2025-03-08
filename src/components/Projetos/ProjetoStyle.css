@@ -1,0 +1,110 @@
+.borda-azul {
+  border: 4px solid rgb(34 211 238);
+}
+
+.fundo-azul {
+  background-color: rgb(34 211 238);
+}
+
+.texto-azul {
+  color: rgb(34 211 238);
+}
+
+.borda-roxo {
+  border: 4px solid rgb(170, 0, 248);
+}
+
+.fundo-roxo {
+  background-color: rgb(170, 0, 248);
+}
+
+.texto-roxo {
+  color: rgb(170, 0, 248);
+}
+
+.borda-rosa {
+  border: 4px solid rgb(255, 0, 119);
+}
+
+.fundo-rosa {
+  background-color: rgb(255, 0, 119);
+}
+
+.texto-rosa {
+  color: rgb(255, 0, 119);
+}
+
+.borda-vermelho {
+  border: 4px solid rgb(167, 0, 28);
+}
+
+.fundo-vermelho {
+  background-color: rgb(167, 0, 28);
+}
+
+.texto-vermelho {
+  color: rgb(167, 0, 28);
+}
+
+/* Animação do card */
+
+@media (min-width: 768px) {
+  .card:hover > .flip {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+}
+
+.virar-card {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
+
+.frente,
+.verso {
+  backface-visibility: hidden;
+}
+
+.verso {
+  transform: rotateY(180deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+/*animaçoes scroll */
+
+#projetos > div > h2 {
+  width: 25ch;
+}
+
+.tituloProjetosInvisivel {
+  opacity: 0;
+}
+
+.tituloProjetosVisivel {
+  animation: write 1.5s steps(18, end), pulsarDoTexto 3s infinite alternate;
+}
+
+@keyframes write {
+  0% {
+    width: 0;
+  }
+}
+
+.projetoInvisivel > div > div {
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateY(50%);
+  transition: all 1s ease-in-out;
+}
+
+.projetoVisivel > div > div {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  transition: all 1.5s ease-in-out;
+}

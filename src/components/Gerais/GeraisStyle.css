@@ -1,0 +1,86 @@
+h3 {
+  position: relative;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  overflow: hidden;
+}
+
+h3::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right, rgb(0, 195, 255), rgb(255, 0, 212));
+  width: 1500px;
+  height: 1500px;
+  z-index: -2;
+  animation: girar 4s infinite;
+}
+
+h3::after {
+  content: "";
+  background-color: rgb(12 10 9);
+  z-index: -1;
+  position: absolute;
+  height: 98%;
+  width: 100%;
+  top: -1px;
+  left: 0;
+}
+
+@keyframes girar {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+  border-radius: 55px;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right, rgb(0, 195, 255), rgb(255, 0, 212));
+  width: 100%;
+  height: 60%;
+  animation: animacaoTitulo 3s linear infinite;
+  z-index: -2;
+}
+
+h1::after {
+  content: "";
+  background-color: rgb(12 10 9);
+  position: absolute;
+  inset: 5px;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.animacaoPulsar {
+  animation: pulsarDoTexto 3s infinite alternate;
+}
+
+@keyframes pulsarDoTexto {
+  0% {
+    text-shadow: 0 0 10px rgb(0, 195, 255), 0 0 20px rgb(255, 0, 212);
+  }
+
+  100% {
+    text-shadow: 0 0 10px rgb(255, 0, 212), 0 0 20px rgb(0, 195, 255);
+  }
+}
+
+@keyframes animacaoTitulo {
+  100% {
+    transform: rotate(360deg);
+  }
+}

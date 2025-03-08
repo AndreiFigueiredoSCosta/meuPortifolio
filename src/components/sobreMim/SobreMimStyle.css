@@ -1,0 +1,125 @@
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.alternarCorDosCabecalhos > li:nth-child(odd) > h6 {
+  color: rgb(0, 195, 255);
+}
+
+.alternarCorDosCabecalhos > li:nth-child(even) > h6 {
+  color: rgb(255, 0, 204);
+}
+
+.alterarCorDasBolinhas > li {
+  list-style: circle;
+}
+
+.alterarCorDasBolinhas > li:nth-child(odd)::marker {
+  color: rgb(0, 195, 255);
+}
+
+.alterarCorDasBolinhas > li:nth-child(even)::marker {
+  color: rgb(255, 0, 204);
+}
+
+/*efeito do botao de download*/
+
+.button-after::after {
+  content: "Download iniciado!";
+  background: linear-gradient(to right, rgb(0, 195, 255), rgb(255, 0, 212));
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: bold;
+  animation: baixar 3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+@keyframes baixar {
+  0% {
+    transform: translate(-100%);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100%);
+  }
+}
+
+/*efeitos de scroll*/
+
+.sobreInvisivel {
+  opacity: 0;
+  filter: blur(30px);
+  transition: all 1.5s;
+  transform: translate(0, -30%);
+}
+
+.sobreVisivel {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 0.5s;
+  transform: translate(0);
+}
+
+.perfilInvisivel {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1s;
+  transform: translate(-50%);
+}
+
+.perfilVisivel {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 1s;
+  transform: translate(0);
+}
+
+.conhecimentosInvisivel {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1s;
+  transform: translate(50%);
+}
+
+.conhecimentosVisivel {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 1s;
+  transform: translate(0);
+}
+
+.formacaoInvisivel {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1s;
+  transform: translate(0, 20%);
+}
+
+.formacaoVisivel {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 0.5s;
+  transform: translate(0);
+}
+
+.buttonInvisivel {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 0.5s;
+}
+
+.buttonVisivel {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 0.5s;
+}

@@ -1,0 +1,38 @@
+.servicosInvisivel > article {
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100%);
+  transition: all 2s ease-in-out;
+}
+
+.servicosVisivel > article {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);
+}
+
+.servicosVisivel > :nth-child(1) {
+  transition: all 2.5s ease-in-out;
+}
+
+.servicosVisivel > :nth-child(2) {
+  transition: all 2s ease-in-out;
+}
+
+.servicosVisivel > :nth-child(3) {
+  transition: all 1.5s ease-in-out;
+}
+
+.tituloServicoInvisivel {
+  opacity: 0;
+}
+
+.tituloServicoVisivel {
+  animation: write 1.5s steps(14, end), pulsarDoTexto 3s infinite alternate;
+}
+
+@keyframes write {
+  0% {
+    width: 0;
+  }
+}

@@ -1,0 +1,38 @@
+.titulo-contato-invisivel {
+  opacity: 0;
+}
+
+.titulo-contato-visivel {
+  animation: write 1s steps(7, end), pulsarDoTexto 3s infinite alternate;
+}
+
+@keyframes write {
+  0% {
+    width: 0;
+  }
+}
+
+.contato-invisivel > article {
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(100%);
+  transition: all 2s ease-in-out;
+}
+
+.contato-visivel > article {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);
+}
+
+.contato-visivel > :nth-child(1) {
+  transition: all 1.5s ease-in-out;
+}
+
+.contato-visivel > :nth-child(2) {
+  transition: all 2s ease-in-out;
+}
+
+.contato-visivel > :nth-child(3) {
+  transition: all 2.5s ease-in-out;
+}

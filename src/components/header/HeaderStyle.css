@@ -1,0 +1,33 @@
+.nav-links li button {
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-links li button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(to right, rgb(0, 195, 255), rgb(255, 0, 212));
+  transition: all 0.2s ease-in;
+}
+
+.nav-links li button:hover::before {
+  width: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.menu-aberto > div > ul {
+  transform: rotateY(0);
+  transform: translateY(0);
+  transition: all 0.5s;
+}
+
+.menu-fechado > div > ul {
+  transform: rotateY(180deg);
+  transform: translateY(-100%);
+  transition: all 0.5s;
+}
