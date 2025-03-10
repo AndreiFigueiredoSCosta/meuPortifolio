@@ -148,7 +148,7 @@ export default function SobreMim() {
       <button
         className={` ${ativo ? " button-after " : ""} ${
           isButtonVisible ? "buttonVisivel" : "buttonInvisivel"
-        } flex justify-center items-center overflow-hidden rounded-[30px] relative`}
+        } flex justify-center items-center overflow-hidden rounded-[30px] relative sm:w-5/5 w-3/5`}
         ref={refButton}
       >
         <h1 className="text-3xl p-6" onClick={baixarCurriculo}>
