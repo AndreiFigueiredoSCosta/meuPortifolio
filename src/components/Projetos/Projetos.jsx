@@ -30,7 +30,7 @@ export default function Projetos() {
           Projetos de estudo
         </h2>
         <div
-          className={` flex justify-center items-center space-x-4 sm:flex-row flex-col space-y-6`}
+          className={` flex justify-center items-center space-x-4 sm:flex-row flex-col space-y-6 sm:space-y-0`}
         >
           <Card
             nome="Site de clima"
