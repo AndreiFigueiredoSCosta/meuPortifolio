@@ -42,7 +42,7 @@ export default function SobreMim() {
 
   return (
     <section
-      className={`w-screen bg-stone-950 font-mono text-stone-300 flex flex-col items-center space-y-24 py-32 overflow-hidden `}
+      className={`w-full bg-stone-950 font-mono text-stone-300 flex flex-col items-center space-y-24 py-32 overflow-hidden `}
       id="sobremim"
     >
       <div className="sm:grid sm:grid-cols-4 sm:grid-rows-6 sm:w-3/5  w-4/5 sm:gap-x-20 sm:gap-y-10 space-y-8">

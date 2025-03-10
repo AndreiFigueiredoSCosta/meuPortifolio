@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function Header() {
   return (
-    <header className="hidden z-50 font-mono sm:flex justify-center text-2xl text-stone-300 bg-black w-screen py-5 fixed">
+    <header className="hidden z-50 font-mono sm:flex justify-center text-2xl text-stone-300 bg-black w-full py-5 fixed">
       <ul className="flex space-x-20 nav-links">
         <li>
           <Link

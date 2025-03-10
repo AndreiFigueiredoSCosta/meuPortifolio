@@ -13,7 +13,7 @@ export default function Contato() {
   return (
     <section
       id="contato"
-      className="w-screen bg-stone-950 py-32 text-stone-300 flex flex-col items-center justify-center space-y-32 overflow-hidden"
+      className="w-full bg-stone-950 py-32 text-stone-300 flex flex-col items-center justify-center space-y-32 overflow-hidden"
     >
       <h2
         className={`${
