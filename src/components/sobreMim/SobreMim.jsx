@@ -145,17 +145,19 @@ export default function SobreMim() {
           </div>
         </article>
       </div>
-      <button
-        className={` ${ativo ? " button-after " : ""} ${
-          isButtonVisible ? "buttonVisivel" : "buttonInvisivel"
-        } flex justify-center items-center overflow-hidden rounded-[30px] relative sm:w-5/5 w-3/5`}
-        ref={refButton}
-      >
-        <h1 className="text-3xl p-6" onClick={baixarCurriculo}>
-          Baixe meu currículo
-          <FileDown className="ml-3" />
-        </h1>
-      </button>
+      <div className="sm:w-2/5 w-3/5 flex justify-center">
+        <button
+          className={` ${ativo ? " button-after " : ""} ${
+            isButtonVisible ? "buttonVisivel" : "buttonInvisivel"
+          } flex justify-center items-center overflow-hidden rounded-[30px] relative `}
+          ref={refButton}
+        >
+          <h1 className="text-3xl p-6" onClick={baixarCurriculo}>
+            Baixe meu currículo
+            <FileDown className="ml-3" />
+          </h1>
+        </button>
+      </div>
     </section>
   );
 }
