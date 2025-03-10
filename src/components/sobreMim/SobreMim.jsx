@@ -121,7 +121,7 @@ export default function SobreMim() {
             Formação e experiência profissional
           </h3>
           <div className="flex flex-col sm:1/2 gap-x-6 text-center sm:flex-row space-y-6">
-            <div className="xm:w-1/2 flex flex-col items-center space-y-4">
+            <div className="sm:w-1/2 flex flex-col items-center space-y-4">
               <a href="https://www.ufsm.br/">
                 <img src="/logoUFSM.jpg" alt="" />
               </a>
